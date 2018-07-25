@@ -1,0 +1,12 @@
+git clone								to clone a git project from a repository
+git status 								to show the status of the git project
+git add .  				 				to add all the files 
+git add filename.extension				to add a specific filename
+git commit -m ""						to make a commit and give a message to that commit
+git push								to do a push on git
+git pull								to make an update to the latest version, similar to UPDATE command on SVN
+
+git branch								to know the branch we are on
+git branch nameOfNewBranch				to create a new branch
+git check out nameOfACreated branch		to switch to the nameOfNewBranch
+git merge branchTomerge					to merge the branchTomerge with current branch
