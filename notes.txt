@@ -10,3 +10,35 @@ git branch								to know the branch we are on
 git branch nameOfNewBranch				to create a new branch
 git check out nameOfACreated branch		to switch to the nameOfNewBranch
 git merge branchTomerge					to merge the branchTomerge with current branch
+
+
+
+https://www.w3schools.com/cssref/css_selectors.asp
+https://css-tricks.com/almanac/
+
+
+.class
+#id
+*			all the elements, usually at the start of the css document.
+elements    as an example h1, p, etc
+element , element   the list of elements that you want to take the style
+element1 element2       select all elements2 inside element1
+element1 > element2     select all element2 that have parent of element1 
+element1 + elements2    select any element2 that is exactly after element1  
+:hover		            when the pointer is pointing the element
+:last-child				
+:first-child
+!important
+
+
+clear:both
+
+px
+em 		referencia cuantas veces debe multiplicar el tamanio del elemento padre para tomarlo por suyo 
+rem		referencia cuantas veces debe multiplicar el tamanio del elemento raiz (html) para tomarlo por suyo
+
+flex-box
+
+transition
+transform
+animation css propertie|
