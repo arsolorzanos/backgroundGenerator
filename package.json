@@ -1,14 +1,23 @@
 {
   "name": "backgroundgenerator",
   "version": "1.0.0",
-  "description": "",
+  "description": "My first project",
   "main": "script.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "lodash": "^4.17.10"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "browserify script.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arsolorzanos/backgroundGenerator.git"
+  },
+  "author": "Angel Solorzano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arsolorzanos/backgroundGenerator/issues"
+  },
+  "homepage": "https://github.com/arsolorzanos/backgroundGenerator#readme"
 }
